@@ -367,7 +367,7 @@
     color: var(--ivory); letter-spacing: 0.04em; margin-bottom: 2.5rem;
   }
   .cat-title em { font-family: var(--serif); font-style: italic; color: var(--gold); }
-  .cat-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .cat-columns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3rem; }
   .cat-group-header {
     display: flex; align-items: baseline; justify-content: space-between;
     margin-bottom: 1.25rem; padding-bottom: 0.75rem;
@@ -580,6 +580,7 @@
       <div class="filter-divider"></div>
       <li><a href="#" data-filter="rodeo">Rodeo</a></li>
       <li><a href="#" data-filter="racetrack">Race Track</a></li>
+      <li><a href="#" data-filter="ranch">Ranch</a></li>
       <div class="filter-divider"></div>
       <li><a href="#" data-filter="date">By Date</a></li>
       <li><a href="#" data-filter="location">By Location</a></li>
@@ -607,7 +608,7 @@
 <div class="photo-grid reveal visible" id="photo-grid">
 
   <!-- Card 1 · Feb 21 -->
-  <div class="photo-card" data-cat="rodeo men candids lifestyle chsra temecula" data-meta="Candids · Men · Lifestyle · Temecula, CA · Feb 21, 2026" style="grid-column: 1 / 7; aspect-ratio: 3/2;">
+  <div class="photo-card" data-cat="rodeo men backstage lifestyle chsra temecula" data-meta="Candids · Men · Lifestyle · Temecula, CA · Feb 21, 2026" style="grid-column: 1 / 7; aspect-ratio: 3/2;">
     <img src="assets/img/cowboys-candid.png" alt="Cowboys on horseback candid portrait Temecula CA Feb 2026">
     <div class="ph-fill"><div class="ph-text">Candids<br>Lifestyle</div></div>
     <div class="photo-overlay">
@@ -616,7 +617,7 @@
   </div>
 
   <!-- Card 2 · Feb 21 -->
-  <div class="photo-card" data-cat="rodeo men women candids backstage chsra temecula" data-meta="Candids · Backstage · Temecula, CA · Feb 21, 2026" style="grid-column: 7 / 10; aspect-ratio: 3/4;">
+  <div class="photo-card" data-cat="rodeo men women backstage backstage chsra temecula" data-meta="Candids · Backstage · Temecula, CA · Feb 21, 2026" style="grid-column: 7 / 10; aspect-ratio: 3/4;">
     <img src="assets/img/arena-candid.png" alt="Arena candid rider and trainer Temecula CA Feb 2026">
     <div class="ph-fill"><div class="ph-text">Arena<br>Candid</div></div>
     <div class="photo-overlay">
@@ -661,7 +662,7 @@
   </div>
 
   <!-- Card 7 · Feb 14 -->
-  <div class="photo-card" data-cat="rodeo mounted-shooting women lifestyle candids cmsa horseshoe-park" data-meta="Mounted Shooting · Women · Lifestyle · Horseshoe Park, AZ · Feb 14, 2026" style="grid-column: 1 / 5; aspect-ratio: 4/3;">
+  <div class="photo-card" data-cat="rodeo mounted-shooting women lifestyle backstage cmsa horseshoe-park" data-meta="Mounted Shooting · Women · Lifestyle · Horseshoe Park, AZ · Feb 14, 2026" style="grid-column: 1 / 5; aspect-ratio: 4/3;">
     <img src="assets/img/3619192394562555482.jpg" alt="Women rider lifestyle candid Horseshoe Park AZ Feb 2026">
     <div class="ph-fill"><div class="ph-text">Lifestyle<br>Candid</div></div>
     <div class="photo-overlay">
@@ -780,7 +781,6 @@
         <a href="#" class="cat-pill" data-sub="saddle-bronc">Saddle Bronc Riding</a>
         <a href="#" class="cat-pill" data-sub="team-roping">Team Roping</a>
         <a href="#" class="cat-pill" data-sub="breakaway">Breakaway Roping</a>
-        <a href="#" class="cat-pill" data-sub="candids">Candids</a>
         <a href="#" class="cat-pill" data-sub="chutes">Chutes</a>
         <a href="#" class="cat-pill" data-sub="backstage">Backstage</a>
         <a href="#" class="cat-pill" data-sub="lifestyle">Lifestyle</a>
@@ -801,6 +801,20 @@
         <a href="#" class="cat-pill" data-sub="riders">Riders</a>
         <a href="#" class="cat-pill" data-sub="grandstand">Grandstand</a>
         <a href="#" class="cat-pill" data-sub="infield">Infield</a>
+      </div>
+    </div>
+
+    <!-- RANCH -->
+    <div class="cat-group">
+      <div class="cat-group-header">
+        <span class="cat-group-label">Ranch</span>
+        <a href="#" class="cat-group-all" data-filter="ranch">View All Ranch →</a>
+      </div>
+      <div class="cat-grid">
+        <a href="#" class="cat-pill" data-sub="equine">Equine</a>
+        <a href="#" class="cat-pill" data-sub="livestock">Livestock</a>
+        <a href="#" class="cat-pill" data-sub="landscape">Landscape</a>
+        <a href="#" class="cat-pill" data-sub="ranch-lifestyle">Ranch Life</a>
       </div>
     </div>
 
@@ -851,6 +865,7 @@
       <ul>
         <li><a href="#">Rodeo</a></li>
         <li><a href="#">Race Track</a></li>
+        <li><a href="#">Ranch</a></li>
         <li><a href="#">⭑ Best Work</a></li>
         <li><a href="#categories">All Categories →</a></li>
       </ul>
