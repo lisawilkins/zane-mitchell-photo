@@ -1,6 +1,6 @@
-# Zane Mitchell — Rodeo & Western Photographer
+# Zane Mitchell — Photographer
 
-Portfolio site for Zane Mitchell, a documentary photographer capturing the raw, unfiltered spirit of the American West — from the arena to the open range.
+Portfolio site for Zane Mitchell, a documentary photographer capturing the unfiltered spirit of the American West — from the arena to the open range.
 
 ## Live Site
 
